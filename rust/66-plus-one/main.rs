@@ -25,7 +25,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_1() {
+    fn test() {
         assert_eq!(plus_one(vec![9]), vec![1, 0]);
         assert_eq!(plus_one(vec![1, 9]), vec![2, 0]);
         assert_eq!(plus_one(vec![9, 9]), vec![1, 0, 0]);

@@ -1,0 +1,14 @@
+[package]
+name = "leetcode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "66-plus-one"
+path = "66-plus-one/main.rs"
+
+[[bin]]
+name = "169-marjority-element"
+path = "169-majority-element/main.rs"
