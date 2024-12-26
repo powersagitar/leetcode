@@ -8,3 +8,8 @@ edition = "2021"
 [[bin]]
 name = "66_plus_one"
 path = "src/66-plus-one/main.rs"
+
+[[bin]]
+name = "169-majority-element"
+path = "src/169-majority-element/main.rs"
+
