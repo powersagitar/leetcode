@@ -18,6 +18,16 @@ FetchContent_MakeAvailable(googletest)
 include(GoogleTest)
 
 add_executable(
+    jump-game-brute-force
+    55-jump-game/brute-force.cc
+)
+
+target_link_libraries(
+    jump-game-brute-force
+    GTest::gtest_main
+)
+
+add_executable(
     jump-game
     55-jump-game/main.cc
 )

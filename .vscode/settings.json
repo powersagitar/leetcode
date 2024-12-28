@@ -5,5 +5,9 @@
     "leetcode"
   ],
   "cmake.sourceDirectory": "/Users/powersagitar/Developer/powersagitar/leetcode/c++",
-  "cmake.buildDirectory": "${workspaceFolder}/c++/build"
+  "cmake.buildDirectory": "${workspaceFolder}/c++/build",
+  "files.associations": {
+    "vector": "cpp",
+    "unordered_set": "cpp"
+  }
 }
