@@ -36,3 +36,13 @@ target_link_libraries(
     jump-game
     GTest::gtest_main
 )
+
+add_executable(
+    unique-binary-search-trees-catalan
+    96-unique-binary-search-trees/catalan.cc
+)
+
+target_link_libraries(
+    unique-binary-search-trees-catalan
+    GTest::gtest_main
+)
