@@ -20,13 +20,10 @@ func minimumDistance(nums []int) int {
 
 		doesNotExist = false
 
-		for i := 0; i < len(indices)-2; i++ {
-			for j := i + 1; j < len(indices)-1; j++ {
-				for k := j + 1; k < len(indices); k++ {
-					distance := calcDistance(indices[i], indices[j], indices[k])
-					minDistance = min(minDistance, distance)
-				}
-			}
+		for i := range len(indices) - 2 {
+			j, k := i+1, i+2
+			distance := calcDistance(indices[i], indices[j], indices[k])
+			minDistance = min(minDistance, distance)
 		}
 	}
 
